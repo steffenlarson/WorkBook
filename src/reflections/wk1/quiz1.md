@@ -44,7 +44,7 @@ Selector (Which controls the part of the HTML that is to be targeted), Property 
 **7.** What property would you change if you wanted to make a font **Bold**?
 <!-- enter you answer in the space below -->
 ```
-
+The text style.
 ```
 
 **8.** In what tag does the majority of your code belong?
@@ -56,7 +56,7 @@ The body tag.
 **9.** What three tags can be used to make lists (not list items)?
 <!-- enter you answer in the space below -->
 ```
-ol tags, ul tags, li tags, dl tags, dt tags, and dd tags.
+ol tags which stands for ordered list, ul tags which stands for unordered list, and dl tags which stand for data list tags. dt tags, dd tags and li tags should not be confused with these tags as they are the tags used for the individual items in each list.
 ```
 
 **10.** Define the display `:flex property:` 
