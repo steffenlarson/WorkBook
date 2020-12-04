@@ -62,7 +62,7 @@ ol tags which stands for ordered list, ul tags which stands for unordered list, 
 **10.** Define the display `:flex property:` 
 <!-- enter you answer in the space below --> 
 ```
-Inline or block? 
+Display flex allows us as developers to grap elements and move them around. Depending on the command given, developers can move them all around the page. There are many different commands and they are 
 ```
 
 **11.** What `CSS` properties affect the size of a box model?
