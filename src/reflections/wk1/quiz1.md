@@ -44,7 +44,7 @@ Selector (Which controls the part of the HTML that is to be targeted), Property 
 **7.** What property would you change if you wanted to make a font **Bold**?
 <!-- enter you answer in the space below -->
 ```
-The text style.
+The text style. or jsut use a b tag.
 ```
 
 **8.** In what tag does the majority of your code belong?
@@ -56,13 +56,15 @@ The body tag.
 **9.** What three tags can be used to make lists (not list items)?
 <!-- enter you answer in the space below -->
 ```
-ol tags which stands for ordered list, ul tags which stands for unordered list, and dl tags which stand for data list tags. dt tags, dd tags and li tags should not be confused with these tags as they are the tags used for the individual items in each list.
+ol tags which stands for ordered list, ul tags which stands for unordered list, and dl tags which stand for data list tags.
+
+ dt tags, dd tags and li tags should not be confused with these tags as they are the tags used for the individual items in each list.
 ```
 
 **10.** Define the display `:flex property:` 
 <!-- enter you answer in the space below --> 
 ```
-Display flex allows us as developers to grap elements and move them around. Depending on the command given, developers can move them all around the page. There are many different commands and they are 
+Display flex allows us as developers to grap elements and move them around. Depending on the command given, developers can move them all around the page. There are many different commands.
 ```
 
 **11.** What `CSS` properties affect the size of a box model?
