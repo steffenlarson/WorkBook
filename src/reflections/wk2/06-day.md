@@ -3,12 +3,21 @@ __12/7/2020__
 
 ## What is Scope?
 
-Git is a distributed version control system meaning that it is a program that stores content. The stored content is tracked and records are made from any changes that are applied to the code. The code can be accessed and changed by multiple developers even at the same time and run paralelly. There are local and remote repositories of the information. The local repositories are stored locally on the developers computer, and the remote repositories are stored on a server.
+Scope generally means where a variable is available for use. There is globally scoped, function/locally scoped, and there is block scoped.
+
+Globally scoped is any instance where VAR is used outside of a code block. This causes problems becuase if the same variable names are used to define in multiple places, then the system will get confused and return an error message. Globally scoped means too that the variable is up for use in the whole window.
+
+Function/Locally scoped is when the variable is defined inside of a function. This means that the variable defined is only available for use inside of the function.
+
+The final scope is prefered, it is Block scoped. Block scoped applies to both the LET and CONST variables. The block is bound by {} anything inside of curley braces is a part of the block. Variables that are block scoped can only be used for that block.
+
 
 ## What is Hoisting?
 
-Having multiple branches in Git allows for multiple developers to simultaneously work on a project. The branches come together when the code is pushed to Github, and all of the changes can be compared and looked at. From that point Github allows the overwriting and progress of the code to be updated, while still keeping a cache of steps and changes that the code has gone through. 
+Hoisting is the movement of bringing a variable or a defined variable to the top of the code block. Because functions cannot run without first bringing in those variables that have been defined it is written into the Javascript. This feature is built into Javascript and allows functions to not be hindered because the variables are defined after the functions code block.
+
 
 ## In what cases would you use LET vs. CONST vs. VAR?
 
-The difference between Git and Github is that Git runs independently on every developers computer, while Github is a website or forum for the code and project to be pushed to to be stored and to be able to see the progress. Github allows developers to share their own progress to eachother without having to be in the same room. Git is what stores and processes the code on the individual developers desktop or laptop.
+Personally I will do my very best to never use the VAR assignments. CONST will be used for any variables that I will not change at all, and LET will be used in all other cases. This will help me keep my code clean and understandable.
+
