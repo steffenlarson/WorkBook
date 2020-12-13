@@ -13,6 +13,12 @@ The keywords used to declare variables are VAR, LET, and CONST.
 **3.** What are the `SOLID` principles?
 <!-- enter you answer in the space below -->
 ```
+The SOLID principles are:
+S:
+O:
+L:
+I:
+D:
 
 ```
 **4.** Given this array: 
@@ -22,7 +28,7 @@ let fruit = ['apple', 'banana', 'pineapple',  'orange', 'strawberry']
 What index is the pineapple's current position? How do you know?
 <!-- enter you answer in the space below -->
 ```
-
+Pineapple is currently located at the index [2]. This is because in arrays the separate objects begin at 0 instead of 1. So where pineapple is the thrid object inside of the array, it means that its index is [2].
 ```
 **5.** With these two objects: 
 ```js

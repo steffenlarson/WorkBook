@@ -19,5 +19,5 @@ Hoisting is the movement of bringing a variable or a defined variable to the top
 
 ## In what cases would you use LET vs. CONST vs. VAR?
 
-Personally I will do my very best to never use the VAR assignments. CONST will be used for any variables that I will not change at all, and LET will be used in all other cases. This will help me keep my code clean and understandable.
+Personally I will do my very best to never use the VAR assignments. VAR assignments are useful and ok for global assignments, but LET is just as easily usable. CONST will be used for any variables that I will not change at all, and LET will be used in all other cases. This will help me keep my code clean and understandable and it will also help me to not confuse my computer.
 
