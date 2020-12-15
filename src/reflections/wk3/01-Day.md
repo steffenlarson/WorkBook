@@ -3,20 +3,13 @@ __12/14/2020__
 
 ## What problem does using exports solve?
 
-Scope generally means where a variable is available for use. There is globally scoped, function/locally scoped, and there is block scoped.
-
-Globally scoped is any instance where VAR is used outside of a code block. This causes problems becuase if the same variable names are used to define in multiple places, then the system will get confused and return an error message. Globally scoped means too that the variable is up for use in the whole window.
-
-Function/Locally scoped is when the variable is defined inside of a function. This means that the variable defined is only available for use inside of the function.
-
-The final scope is prefered, it is Block scoped. Block scoped applies to both the LET and CONST variables. The block is bound by {} anything inside of curley braces is a part of the block. Variables that are block scoped can only be used for that block.
+Using exports helps organzie code. That is the biggest helping feature that using exports has. There used to be work arounds for exporting and importing code, but now with ES6 we are able to as developers directly import and export files. Exports also help protect the integrity of a webpage. The code on the page is not as directly manipulatable. The code that is imported can only be accessed if it was exported and because you are only using the code that you need when you need it, the code stays a little safer.
 
 
-## How does export differ from export defoult?
+## How does export differ from export default?
 
-Hoisting is the movement of bringing a variable or a defined variable to the top of the code block. Because functions cannot run without first bringing in those variables that have been defined it is written into the Javascript. This feature is built into Javascript and allows functions to not be hindered because the variables are defined after the functions code block.
-
+Export default removes the need for adding * as. It can asign aliases. While using just the regular export it would be required if you were going to add an alias. Default exports are also limited to one per export, while with the regular export there is no such limit.
 
 ## What is a benefit of using the Module System?
 
-Personally I will do my very best to never use the VAR assignments. VAR assignments are useful and ok for global assignments, but LET is just as easily usable. CONST will be used for any variables that I will not change at all, and LET will be used in all other cases. This will help me keep my code clean and understandable and it will also help me to not confuse my computer.
+The main and greatest benefit of using the Module system is how modules can assist in organizing. We can keep certain like sections of code together and it helps find bugs quicker, and as developers we will not have to spend as much time looking for problems in our code. I plan to really start using the module system once I understand it a little better.
