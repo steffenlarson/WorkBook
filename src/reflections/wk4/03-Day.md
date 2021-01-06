@@ -3,14 +3,14 @@ __01/06/2021__
 
 ## What is the purpose of Async / Await?
 
-Using exports helps organzie code. That is the biggest helping feature that using exports has. There used to be work arounds for exporting and importing code, but now with ES6 we are able to as developers directly import and export files. Exports also help protect the integrity of a webpage. The code on the page is not as directly manipulatable. The code that is imported can only be accessed if it was exported and because you are only using the code that you need when you need it, the code stays a little safer.
+The purpose of the async and await conventions is to fine tune the promise system of asynchronous code. Promises helped Javascript deal with many of the problems that asynchronous coding presented, but they still had their own limitations. Promises can still cause a Callback Hell. Async and await condense promises even farther. These words and the functionality tied to them makes the code look like it is synchronous when it is really asynchronous.
 
 
 ## What must you do in order to Await a promise inide of a function?
 
-Export default removes the need for adding * as. It can asign aliases. While using just the regular export it would be required if you were going to add an alias. Default exports are also limited to one per export, while with the regular export there is no such limit.
+To use await inside of a function the function must first be declared asynchronous. Declaring before the function or assigning the function to async with the = opperator sets that function aside as an asynchronous function.
 
 
 ## What are some of the primary benefits of Async / Await?
 
-The main and greatest benefit of using the Module system is how modules can assist in organizing. We can keep certain like sections of code together and it helps find bugs quicker, and as developers we will not have to spend as much time looking for problems in our code. I plan to really start using the module system once I understand it a little better.
+The primary benefits to using the async and await method is that it makes the code shorter, easier to read, and condensed. Promises are also chained much much easier with the async and await methodology. It also allows the program or website to run other things while the function is waiting for a return of information or data. 
