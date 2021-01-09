@@ -14,3 +14,7 @@ Stateless in restful applications means that the server remembers nothing about 
 ## What URL pattern is used when writing a RESTful API?
 
 The URL pattern used for writing restful API's is the HTTP pattern. The HTTP URL pattern includes four main methods and they are GET, PUT, POST, and DELETE. GET gathers information, PUT edits the information, POST creates new information, and DELETE obviously deletes information.
+
+
+## Afternoon Project Link:
+https://steffenlarson.github.io/SJ-Music/

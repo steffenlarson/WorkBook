@@ -14,3 +14,7 @@ To use await inside of a function the function must first be declared asynchrono
 ## What are some of the primary benefits of Async / Await?
 
 The primary benefits to using the async and await method is that it makes the code shorter, easier to read, and condensed. Promises are also chained much much easier with the async and await methodology. It also allows the program or website to run other things while the function is waiting for a return of information or data. 
+
+
+## Afternoon Project Link:
+https://steffenlarson.github.io/pokedex/

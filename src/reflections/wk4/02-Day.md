@@ -14,3 +14,7 @@ Callbacks themselves are susceptable to becoming a source of Callback Hell. If a
 ## What is the difference between .then() and .catch()?
 
 The difference between .then() and .catch() is fairly simple. Then is used for whenever a promise is resolved. Catch is used for when a promise is rejected. Then allows for us to decide after it runs what to do with the resolved promise. If the promise fails, we use the Catch method. Catch can be attached directly after Then. If the promise gets resolved there can be an outcome, and with the Catch method attached on the end if it fails another outcome can be achieved.
+
+
+## Afternoon Project Link:
+https://steffenlarson.github.io/winter2020-api-gregslist/
