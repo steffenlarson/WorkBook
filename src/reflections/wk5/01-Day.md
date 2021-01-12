@@ -3,22 +3,22 @@ __01/11/2021__
 
 ## What is the purpose of a Query String?
 
-Some of the signs and causes of Callback Hell are when developers try to write their code in a way that makes it read top-down. This leads to nested functions and a pyramid like look in the code that makes the code very hard to read. There is an expectation in many other coding languages that says that whatever happens on the first line will finish before the code on the second line starts running. Javascript is a little different.
+A query string allows us to pass information to and from a website by simply adding or appending that information to the end of a URL. That information is stored in the query string and it is captured when the website reads the URL. All kinds of data can be passed into any request using query strings. the data once passed can be captured in node from the request object and this data can be used and manipulated any way that we as developers desire.
 
 
 ## What is the format of a query parameter? How does it start? How do you distinguish between one parameter and the next?
 
-The word 'asynchronous' in the coding aspect means that something will take some time or happen later or just not in that moment. Callbacks are a convention used in Javascript functions that mean that instead of immediately returning a result like a pass or a fail, a function with a callback used in it takes some time to produce a result. These Callbacks are usually reserved for functions that need to return a download of some kind or do something else that is not instantaneous.
+Query parameters arrive as a key=value pair. The query string part of a URL begins right after the '?' (Question Mark) and in between each individual parameter (key/value pair) there is an & (ampersand).
 
 
 ## When do you think Query parameters would be helpful when writing your server?
 
-The three ways to avoid and fix 'Callback Hell' are first: to keep the code written shallow, second: is to modularize, and third is to handle every single error. Shallow code means to keep things simple. Name every function. Split nested functions up. Make the code easier to read. Doing this allows for easier debugging, it allows functions to be moveable, and it allows for the finding of errors easier. Modularizing means to use different files for like code. Importing and exporting files to one another allows the code to stay very readable, and by using different variables from importing and exporting important pieces of reusable code it shortens the code. This allows for readability to become greater. Handling every single error is a little different than the last two rules. This rule is to help the code become more stable. Developers should always think and assume that their code is going to throw an error. When we as developers assume this idea and build things around it debugging and managing program breaking problems becomes easier. The most popular way of addressing errors every single time is to address the error in the first arguement of each callback. This convention of addressing the error first ensures that the errors are almost always dealt with.
+When writing my servers I believe that the query parameters will be most helpful with distinguishing and stating where a request needs to go. This is like which doorway the knight needs to look for and enter. If the request has a item that says that its looking for a certain place to go, this is how the query parameters will be helpful. It will be most helpful in determining what the request was looking for. 
 
 
 ## Afternoon Project Link:
-https://steffenlarson.github.io/triviagame/
 
+None at the present time. Took the afternoon to finish checkpoint.
 
 
 ## Reading: Servers with Node/Express => Using Query Parameters
