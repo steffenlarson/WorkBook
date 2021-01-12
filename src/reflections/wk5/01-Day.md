@@ -18,3 +18,7 @@ The three ways to avoid and fix 'Callback Hell' are first: to keep the code writ
 
 ## Afternoon Project Link:
 https://steffenlarson.github.io/triviagame/
+
+
+
+## Reading: Servers with Node/Express => Using Query Parameters
