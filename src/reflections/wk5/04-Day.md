@@ -3,18 +3,17 @@ __01/14/2021__
 
 ## What is a virtual property?
 
-Some of the signs and causes of Callback Hell are when developers try to write their code in a way that makes it read top-down. This leads to nested functions and a pyramid like look in the code that makes the code very hard to read. There is an expectation in many other coding languages that says that whatever happens on the first line will finish before the code on the second line starts running. Javascript is a little different.
+Virtual properties are extra information that can be requested through the model. These values cannot be edited through that same model, however it can be really nice to be able to pul more information from a specific model anytime there is a request. Virtuals do not exist on the database they only exist logically. Virtuals can also be used to help reduce work.
 
 
 ## When might you use a virual property?
 
-The word 'asynchronous' in the coding aspect means that something will take some time or happen later or just not in that moment. Callbacks are a convention used in Javascript functions that mean that instead of immediately returning a result like a pass or a fail, a function with a callback used in it takes some time to produce a result. These Callbacks are usually reserved for functions that need to return a download of some kind or do something else that is not instantaneous.
+Virtual properties can be helpful when developers are trying to take multiple parts of the data and trying to return certain information in a more readable way. Instead of needing to write a function to get something to print out a certain way every time there are ways with virtuals that allow developers to write a function once and then apply it to every instance of asking for that data.
 
 
 ## How do you search by a virtual properties value?
 
-The three ways to avoid and fix 'Callback Hell' are first: to keep the code written shallow, second: is to modularize, and third is to handle every single error. Shallow code means to keep things simple. Name every function. Split nested functions up. Make the code easier to read. Doing this allows for easier debugging, it allows functions to be moveable, and it allows for the finding of errors easier. Modularizing means to use different files for like code. Importing and exporting files to one another allows the code to stay very readable, and by using different variables from importing and exporting important pieces of reusable code it shortens the code. This allows for readability to become greater. Handling every single error is a little different than the last two rules. This rule is to help the code become more stable. Developers should always think and assume that their code is going to throw an error. When we as developers assume this idea and build things around it debugging and managing program breaking problems becomes easier. The most popular way of addressing errors every single time is to address the error in the first arguement of each callback. This convention of addressing the error first ensures that the errors are almost always dealt with.
-
+You cannot search by a virtual properties value. They are not able to be searched for or through with document queries or field selection. Only the non virtual properties can be searched through in that way. 
 
 ## Afternoon Project Link:
 https://steffenlarson.github.io/triviagame/

@@ -3,17 +3,17 @@ __01/13/2021__
 
 ## In simple terms what is a sub-document?
 
-Some of the signs and causes of Callback Hell are when developers try to write their code in a way that makes it read top-down. This leads to nested functions and a pyramid like look in the code that makes the code very hard to read. There is an expectation in many other coding languages that says that whatever happens on the first line will finish before the code on the second line starts running. Javascript is a little different.
+A sub document is a document that is nested inside of another document. Like an array of moves inside of a character model. The moves have names and keys to activate them listed in the data. The character also has a name and more data that pertains to it. Alternatively it could be a schema that is nested inside of another schema. The schema for the moves could be brought into the character model.
 
 
 ## When might you use a sub-document?
 
-The word 'asynchronous' in the coding aspect means that something will take some time or happen later or just not in that moment. Callbacks are a convention used in Javascript functions that mean that instead of immediately returning a result like a pass or a fail, a function with a callback used in it takes some time to produce a result. These Callbacks are usually reserved for functions that need to return a download of some kind or do something else that is not instantaneous.
+The times that developers could use a sub document are many. The primary instance that I can think about is when data (and the relationships for that data) become more and more complex. When there are multiple objects or information that have multiple parts is when I believe that using sub-documents will be most helpful. This is because ultimately we want to group all of the like data together, but we do not want to have massive massive objects being returned every single time a simple request is comming in. We only want to have to provide exactly what the user is asking for.
 
 
 ## How do you add to a collection of sub-documents? What about editing them?
 
-The three ways to avoid and fix 'Callback Hell' are first: to keep the code written shallow, second: is to modularize, and third is to handle every single error. Shallow code means to keep things simple. Name every function. Split nested functions up. Make the code easier to read. Doing this allows for easier debugging, it allows functions to be moveable, and it allows for the finding of errors easier. Modularizing means to use different files for like code. Importing and exporting files to one another allows the code to stay very readable, and by using different variables from importing and exporting important pieces of reusable code it shortens the code. This allows for readability to become greater. Handling every single error is a little different than the last two rules. This rule is to help the code become more stable. Developers should always think and assume that their code is going to throw an error. When we as developers assume this idea and build things around it debugging and managing program breaking problems becomes easier. The most popular way of addressing errors every single time is to address the error in the first arguement of each callback. This convention of addressing the error first ensures that the errors are almost always dealt with.
+To add to a collection of sub-documents first a developer must find the document that they wish to change. Then if there is an array that they are wanting to add to they need to grab the array. If not then the change can be made to whatever property that they desire to change. That step is the same if the property is the only thing being changed. The final step to adding or editing to anything inside of a sub-document is to run a .save to save the change to the database.
 
 
 ## Afternoon Project Link:

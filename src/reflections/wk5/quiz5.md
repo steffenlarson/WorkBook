@@ -13,8 +13,7 @@ Create corresponds with POST. Read corresponds with GET. Update corresponds with
 **3.** What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 <!-- enter you answer in the space below -->
 ```
-ORM stands for Object Relational Mapper.
-<!-- TODO Which ORM do we use??? -->
+ORM stands for Object Relational Mapper. The ORM that we are using in our code is mongoose.
 ```
 **4.** Which two `HTTP` request types include a body?
 <!-- enter you answer in the space below -->
@@ -36,12 +35,18 @@ let Schema = ________.Schema;
 ```
 <!-- enter you answer in the space below -->
 ```
+import the schema from "the model"
+let schema = the schema.Schema
 
+alternatively
+
+import mongoose from "mongoose"
+let Schema = new Schema()
 ```
 **7.** What is middleware?
 <!-- enter you answer in the space below -->
 ```
-
+Middleware functions have access to the request, the response and the next in the request/response pipeline. They can not only access those values and properties but they can also manipulate them too. Middleware helps developers communicate what is needed from the front end to the back end of an application.
 ```
 **8.** The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 <!-- enter you answer in the space below -->
@@ -54,5 +59,5 @@ The first blank should be: REQUEST. The second: RESPONSE. It will then read:
 Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 <!-- enter you answer in the space below -->
 ```
-
+api/TAG/TagId/winter
 ```
