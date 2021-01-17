@@ -17,4 +17,7 @@ The main challenge that I see is studying the data of the relationship and deter
 
 
 ## Afternoon Project Link:
-https://steffenlarson.github.io/triviagame/
+https://steffenlarson.github.io/winter20-gregslist-server/
+
+
+## Reading: Servers with Node/Express => MongoDb Relationships

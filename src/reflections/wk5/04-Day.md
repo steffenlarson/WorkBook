@@ -16,4 +16,7 @@ Virtual properties can be helpful when developers are trying to take multiple pa
 You cannot search by a virtual properties value. They are not able to be searched for or through with document queries or field selection. Only the non virtual properties can be searched through in that way. 
 
 ## Afternoon Project Link:
-https://steffenlarson.github.io/triviagame/
+No project link due to hackathon prep.
+
+
+## Reading: Servers with Node/Express => Virtuals in Mongoose

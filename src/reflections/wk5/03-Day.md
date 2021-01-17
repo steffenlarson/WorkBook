@@ -17,4 +17,7 @@ To add to a collection of sub-documents first a developer must find the document
 
 
 ## Afternoon Project Link:
-https://steffenlarson.github.io/triviagame/
+https://steffenlarson.github.io/daplanets/
+
+
+## Reading: Servers with Node/Express => Mongoose 101 Working with subdocuments
