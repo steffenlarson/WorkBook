@@ -3,22 +3,26 @@ __01/18/2021__
 
 ## What is Componet based architecture?
 
-A query string allows us to pass information to and from a website by simply adding or appending that information to the end of a URL. That information is stored in the query string and it is captured when the website reads the URL. All kinds of data can be passed into any request using query strings. the data once passed can be captured in node from the request object and this data can be used and manipulated any way that we as developers desire.
+Component based architecture is a method for encapsulating individual pieces of a larger user interface (components) into self sustaining, independant micro systems. In english this means that as developers we can use this formating method to be able to section off parts of our webpages to be able to function and update on their own without having to constantly redraw the whole page. It also is conveniant to be able to have access to all of the relevant information and functionality of a certain component all in one place.
 
 
 ## What are some benefits of Component base architecture?
 
-Query parameters arrive as a key=value pair. The query string part of a URL begins right after the '?' (Question Mark) and in between each individual parameter (key/value pair) there is an & (ampersand).
+Some of the benefits to component based architecture are:
+1. Components allow for the holding of all the data and methods that will be implemented or relate to a certain area of a web page. 
+2. They also allow for dynamic page interaction. Meaning that the whole page will not have to be redrawn every single time something on that page gets altered. Just the one little section will.
+3. Components also help maximize functionality and performance of a website.
+4. Components are reusable.
 
 
 ## What are some drawbacks to Component based architecture?
 
-When writing my servers I believe that the query parameters will be most helpful with distinguishing and stating where a request needs to go. This is like which doorway the knight needs to look for and enter. If the request has a item that says that its looking for a certain place to go, this is how the query parameters will be helpful. It will be most helpful in determining what the request was looking for. 
+The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons.
 
 
 ## Afternoon Project Link:
 
-None at the present time. Took the afternoon to finish checkpoint.
+Link here
 
 
 ## Reading: Front end Frameworks with Vue3: Understanding Component Based Architecture
