@@ -17,7 +17,7 @@ Some of the benefits to component based architecture are:
 
 ## What are some drawbacks to Component based architecture?
 
-The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons.
+The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons. It can also lead to readability issues in the code.
 
 
 ## Afternoon Project Link:
