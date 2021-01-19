@@ -22,7 +22,7 @@ The main drawback to using the component based arcitecture is that overusing the
 
 ## Afternoon Project Link:
 
-Link here
+https://steffenlarson.github.io/vue-fun/
 
 
 ## Reading: Front end Frameworks with Vue3: Understanding Component Based Architecture
