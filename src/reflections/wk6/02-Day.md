@@ -18,7 +18,7 @@ Props can be accessed from pretty much anywhere. They can be used as an informat
 
 ## Afternoon Project Link:
 
-None at the present time. Took the afternoon to finish checkpoint.
+https://steffenlarson.github.io/vue-nasaapi/
 
 
 ## Reading: Front end Frameworks with Vue3: How to use Props in Vue

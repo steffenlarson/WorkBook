@@ -3,22 +3,22 @@ __01/21/2021__
 
 ## What is a nested route?
 
-A query string allows us to pass information to and from a website by simply adding or appending that information to the end of a URL. That information is stored in the query string and it is captured when the website reads the URL. All kinds of data can be passed into any request using query strings. the data once passed can be captured in node from the request object and this data can be used and manipulated any way that we as developers desire.
+A nested routes are routes that are nested inside of another page. They allow developers to make a more intricate and complicated user interfaces. They also allow components to be nested inside each other. 
 
 
 ## When might you use a nested route? (other than the provided example)
 
-Query parameters arrive as a key=value pair. The query string part of a URL begins right after the '?' (Question Mark) and in between each individual parameter (key/value pair) there is an & (ampersand).
+An example of a time where I would use a nested route would be for a similar site to gregslist. If I wanted to have a car and vehicle website, and I was partnered with a particular brand of motorcycles, and I wanted to have a page specifically for those brand of motorcycles. I would make a nested route inside of the motorcycles page that would take the user to a page dedicated only to that particular brand. 
 
 
 ## Can you pass parameters through nested routes? When might you use them?
 
-When writing my servers I believe that the query parameters will be most helpful with distinguishing and stating where a request needs to go. This is like which doorway the knight needs to look for and enter. If the request has a item that says that its looking for a certain place to go, this is how the query parameters will be helpful. It will be most helpful in determining what the request was looking for. 
+Because nested routes are children components to the parent page we definitely can pass and use parameters through nested routes. I would want to use parameters anytime I want to display something that comes from that original page, just in a different page or a different format. Or with more information even.
 
 
 ## Afternoon Project Link:
 
-None at the present time. Took the afternoon to finish checkpoint.
+https://steffenlarson.github.io/spells-vue/
 
 
 ## Reading: Front end Frameworks with Vue3: Using Nested Routes in Vue.js

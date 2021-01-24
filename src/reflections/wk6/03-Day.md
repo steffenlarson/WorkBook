@@ -3,22 +3,22 @@ __01/20/2021__
 
 ## What are lifecycle hooks?
 
-A query string allows us to pass information to and from a website by simply adding or appending that information to the end of a URL. That information is stored in the query string and it is captured when the website reads the URL. All kinds of data can be passed into any request using query strings. the data once passed can be captured in node from the request object and this data can be used and manipulated any way that we as developers desire.
+Lifecycle hooks are used in Vue 3 for many things. In english a lifecycle hook allows us to peek inside and manipulate (create or update and even destroy) things in our components. They help us know when and where things are being tied in together. 
 
 
 ## What are lifecycle hooks used for?
 
-Query parameters arrive as a key=value pair. The query string part of a URL begins right after the '?' (Question Mark) and in between each individual parameter (key/value pair) there is an & (ampersand).
+Lifecycle hooks are used to manipulate and watch data. They are also used to update and manipulate the DOM. They can be used to dynamically update and render things to the DOM to make a more plesant user experience. They can help developers by watching properties and resetting the DOM everytime that the data gets updated.
 
 
-## What are mounting ooks? When might you use them?
+## What are mounting hooks? When might you use them?
 
-When writing my servers I believe that the query parameters will be most helpful with distinguishing and stating where a request needs to go. This is like which doorway the knight needs to look for and enter. If the request has a item that says that its looking for a certain place to go, this is how the query parameters will be helpful. It will be most helpful in determining what the request was looking for. 
+Mounting hooks are used specifically when we want to on page load pull in the component. These hooks happen or occur immediately before and after the first render of a page. They help the page dynamically render as soon as the user travels to it. There is a slight delay most of the time, because there are still communications with the server that need to happen for accurate information to be displayed, but it all happens very quickly.
 
 
 ## Afternoon Project Link:
 
-None at the present time. Took the afternoon to finish checkpoint.
+https://steffenlarson.github.io/winter2020-vue-gregslist/
 
 
 ## Reading: Front end Frameworks with Vue3: Understanding VueJs Lifecycle Hooks
