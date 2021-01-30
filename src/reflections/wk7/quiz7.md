@@ -4,13 +4,14 @@
 **1.** Describe the two ways to bind Data in Vue?
 <!-- enter you answer in the space below -->
 ```
-
+There is one way data binding, and two way data binding.
+<!-- FIXME explain these more. -->
 ```
 
 **2.** The `SPA` acronym stands for what?
 <!-- enter you answer in the space below -->
 ```
-
+SPA stands for single page application. Meaning that truly there is only one site that we are visiting, just multiple routes on the same site.
 ```
 **3.** What are some of the advantages/uses of a `SPA` over a traditional one?
 <!-- enter you answer in the space below -->
