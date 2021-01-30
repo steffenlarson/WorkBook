@@ -49,7 +49,7 @@ Main.js has the root of our project still. Right beneath that is the App.vue.
 <!-- enter you answer in the space below -->
 ```
 <!-- REVIEW Help me here please -->
-I remember learning about this. I would like a refresher for this question. I know that it exists, but I do not remember what the actual tag is and I do not remember how to alter it to make the styling only local.
+Style and scoped
 ```
 **12.** What is the Vue method used to create watchable objects such as `state` or `AppState`?
 <!-- enter you answer in the space below -->
