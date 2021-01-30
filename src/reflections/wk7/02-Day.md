@@ -3,21 +3,17 @@ __01/26/2021__
 
 ## What is Code Documentation? What are some of the ways to document code?
 
-Component based architecture is a method for encapsulating individual pieces of a larger user interface (components) into self sustaining, independant micro systems. In english this means that as developers we can use this formating method to be able to section off parts of our webpages to be able to function and update on their own without having to constantly redraw the whole page. It also is conveniant to be able to have access to all of the relevant information and functionality of a certain component all in one place.
+Code Documentation is a way for developers to further describe their code so that when they and their colleagues look at it or look back to it they all know a little easier what is going on and how it is working. The naming of variables can be helpful in this but there is a built in way for developers to document their code. It is called JSDoc. It has its own syntax and it is just adding comments and descriptions of what parameters and authors and returns are and should be.
 
 
 ## What are some benefits of Code Documentation?
 
-Some of the benefits to component based architecture are:
-1. Components allow for the holding of all the data and methods that will be implemented or relate to a certain area of a web page. 
-2. They also allow for dynamic page interaction. Meaning that the whole page will not have to be redrawn every single time something on that page gets altered. Just the one little section will.
-3. Components also help maximize functionality and performance of a website.
-4. Components are reusable.
+The main benefit to using Code Documentation is to help in remembering what older code does, without having to trace every single part of the application. It allows developers the chance to add a little more discription to their code without taking too much time and resources away from actually writing everything out the long hand way. It is all about sharing more information about the code. Code Documentation can also help ensure that the types of the variables or parameters are what they are supposed to be. It is another layer of protection and redundancies.
 
 
 ## How important is Code Documentation and why?
 
-The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons. It can also lead to readability issues in the code.
+Code Documentation can be very important. While it does have its drawbacks like taking time to write and constantly having to be updated alongside the code, the information that it can provide to the whole team is enormous. Other developers will be able to catch onto what the specific code is doing much quicker when Code Documentation is implemented insied of our code.
 
 
 ## Afternoon Project Link:
