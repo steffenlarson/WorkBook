@@ -3,21 +3,17 @@ __01/27/2021__
 
 ## What is a User Experience? What should be considered when developing a User Experience?
 
-Component based architecture is a method for encapsulating individual pieces of a larger user interface (components) into self sustaining, independant micro systems. In english this means that as developers we can use this formating method to be able to section off parts of our webpages to be able to function and update on their own without having to constantly redraw the whole page. It also is conveniant to be able to have access to all of the relevant information and functionality of a certain component all in one place.
+The user experience is anything that the user or customer will use or experience while on our site. Any time the user needs to interact with anything is considered part of the user experience. When developing the user experience we should consider the user and what actions that they will be taking on our site. We will also want to know what we want them to feel, and we want the process of accessing the website to be as easy and painless as possible for the user. 
 
 
 ## What are some benefits of taking into account the User Experience?
 
-Some of the benefits to component based architecture are:
-1. Components allow for the holding of all the data and methods that will be implemented or relate to a certain area of a web page. 
-2. They also allow for dynamic page interaction. Meaning that the whole page will not have to be redrawn every single time something on that page gets altered. Just the one little section will.
-3. Components also help maximize functionality and performance of a website.
-4. Components are reusable.
+The largest benefit by far of creating a good user experience and considering the user before we just plug away at what we need to accomplish is the ability to get people to feel what we want them to feel. We also want the user to stay on the site as often and as long as possible. Taking the time to create a good UX can make or break a website. The whole process really depends on the users for their contributions.
 
 
 ## Why is the User Experience important?
 
-The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons. It can also lead to readability issues in the code.
+For many websites the user experience is vital. Most websites are built for buying and selling things, there is almost always a monetary trade going on at some point. Having a good user experience is important in web design just like having a good customer service manner is valuable and important in retail or food. The more that you can cater to good customers and users and the more that they customers want to stay around on the website which makes it more likely that they will spend money on your site.
 
 
 ## Afternoon Project Link:

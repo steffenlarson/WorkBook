@@ -3,21 +3,17 @@ __01/28/2021__
 
 ## Which principles from this weeks reading did you implement?
 
-Component based architecture is a method for encapsulating individual pieces of a larger user interface (components) into self sustaining, independant micro systems. In english this means that as developers we can use this formating method to be able to section off parts of our webpages to be able to function and update on their own without having to constantly redraw the whole page. It also is conveniant to be able to have access to all of the relevant information and functionality of a certain component all in one place.
+The principles that my group and I implemented the most this week were the buddy coding. We did really well to all sit around one computer and we all worked really well together. We also wrote a couple of notes on our code so that we could know what was going on as we look back on some of the things that we did. We also thought a little bit about the user experience, but unfortunately we did not have enough time to really drill into that.
 
 
 ## What went well?
 
-Some of the benefits to component based architecture are:
-1. Components allow for the holding of all the data and methods that will be implemented or relate to a certain area of a web page. 
-2. They also allow for dynamic page interaction. Meaning that the whole page will not have to be redrawn every single time something on that page gets altered. Just the one little section will.
-3. Components also help maximize functionality and performance of a website.
-4. Components are reusable.
+All three of us were really able to get as much out of things as we could. Justin was a huge help and he was really good at driving our team onward. Chris and I helped by talking through the different problems that we encountered and we were all able to make a very functional, if not super pretty, website project. 
 
 
 ## What would you do differently?
 
-The main drawback to using the component based arcitecture is that overusing the principles can lead to a bloated or polluted view on the website. Meaning that the over inclusion or implementation of the component based arcitecture can make things cluttered for unnecesary reasons. It can also lead to readability issues in the code.
+I wish that we could have swapped a little more while coding. Justin did really really well making sure that Chris and I knew what was going on, but I wish that I could have been in the drivers seat to actually practice the coding a little more. I felt like I was getting dragged along a little bit, but I am sure that I was not getting dragged nearly as much as I felt like I was. I also wish that we would have made more notes in the code for what was going on. We took a lot of notes and even made a checklist for this next project. (About what steps we should take and how to do them). I also wish that we would have had more time to really start to polish it. I felt like we worked really really hard on the last two requirements that we were struggling with and that ate up a lot more time than we originally thought.
 
 
 ## Afternoon Project Link:
