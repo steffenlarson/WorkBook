@@ -4,10 +4,8 @@
 **1.** Describe the two ways to bind Data in Vue?
 <!-- enter you answer in the space below -->
 ```
-There is one way data binding, and two way data binding.
-<!-- FIXME explain these more. -->
+There is one way data binding which uses either the 'v-bind' command or the ':' to achieve, and two way data binding which uses forms and the 'v-model' command.
 ```
-
 **2.** The `SPA` acronym stands for what?
 <!-- enter you answer in the space below -->
 ```
@@ -16,7 +14,7 @@ SPA stands for single page application. Meaning that truly there is only one sit
 **3.** What are some of the advantages/uses of a `SPA` over a traditional one?
 <!-- enter you answer in the space below -->
 ```
-
+SPAs are typically fast and responsive over thier counterparts because they do not have to reload the entire page every single time something changes. 
 ```
 **4.** What does the `onMounted` method in Vue do?
 <!-- enter you answer in the space below -->
@@ -31,7 +29,7 @@ The v-model attribute is used to two way data bind inputs on a form so that edit
 **6.** The `v:on` (`@`) directive can be used for what?
 <!-- enter you answer in the space below -->
 ```
-
+The v:on directive can be used for listening to DOM events and when that action occurs run some JavaScript.
 ```
 **7.** Which Vue attributes(directives) could you use to conditionally render elements on a page?
 <!-- enter you answer in the space below -->
@@ -46,5 +44,5 @@ The key attribute in a v-for loop is how that loop distinguishes one single inst
 **9.** What is the `<slot>` element and what is it used for?
 <!-- enter you answer in the space below -->
 ```
-
+The slot element based on my understanding is when we use different components this is what we use to plug in the component into the parents html template. We can plug in any number of things inside of a slot element, but we have been utilizing them by plugging them into the template portion of components and pages.
 ```
