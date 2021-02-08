@@ -3,30 +3,29 @@ __02/03/2021__
 
 ## What is Software Developement Testing?
 
-Pair Programming is the concept and practice of two developers or programmers sharing a workspace. They use one computer one mouse and one keyboard. The idea is that the two programmers can fulfill two roles: the driver and the navigator. One person actually typing the code, and the other guiding where the driver goes or should go next. An open dialogue is necessary for this practice to be the most effective.
+Software Developement testing is testing the code that gets written as it gets written. There are ways that developers can write code that will run each small piece of code to see if that individual piece is doing what it should be doing in different circumstances.
 
 ## What are the benefits of Testing in software development?
 
-Some of the benefits of Pair Programming are:
-1. An increase to code quality.
-2. A better 'shared knowledge' among the whole team and partners.
-3. A better and more effective way for more experienced team members to train and teach the less experienced ones.
-4. A reduction to the coordination of the whole team by cutting the number of individual projects by half.
-5. An improved resistance to disruptions in the coding process. If a team member needs to step out or redirect their attention for any reason, the partner can catch them up once the first returns.
+There are many benefits to doing unit testing:
+1- Testing gives peace of mind about the code being written.
+2- Testing makes a developer condfidant about what is going on and how to fix problems that might arise later.
+3- Testing helps with efficiency, because if a develper tests as he codes potential problems with the code can be identified before it goes off to be officially tested.
+4- Testing helps with Documentation. As long as the tests are well written. The tests also have to be maintained as often as the code is, where comments can simply and often do get ignored.
+5- Testing can lead to overall better design of a website and of the code within it.
 
 
 ## What are some potential drawbacks of Testing in software development?
 
-The main problems with Pair Programming are:
-1. Both members of the pair must be active and engaged in the work. Otherwise there is no benefit.
-2. When poorly applied, the worst case scenario is that it doubles the cost for no benefits.
-3. An open dialogue is required. If there is no speaking and thinking out loud there is less benefit to the practice.
-4. This practice is not fruitful among people that do not work well together. It cannot be forced upon people. The people participating need to be able to work together, otherwise there is no point in forcing the two together.
+Some drawbacks to testing in software developement are:
+1- It can be expensive.
+2- It can be seen as a waste of time.
+3- The tests would have to be rewritten every time there is an update to the code that they belong to.
 
 
 ## Afternoon Project Link:
 
-See Partner Project: https://steffenlarson.github.io/checkpoint6/
+See Capstone:
 
 
 ## Reading: Working in a Professional Environment: Unit Testing
