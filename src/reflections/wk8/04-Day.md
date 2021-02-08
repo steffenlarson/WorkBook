@@ -3,30 +3,21 @@ __02/04/2021__
 
 ## What are the three main types of testing we can accomplish in Vue? what does each method provide?
 
-Pair Programming is the concept and practice of two developers or programmers sharing a workspace. They use one computer one mouse and one keyboard. The idea is that the two programmers can fulfill two roles: the driver and the navigator. One person actually typing the code, and the other guiding where the driver goes or should go next. An open dialogue is necessary for this practice to be the most effective.
+The three main types of testing are unit testing, component testing, and end to end testing. Unit testing tests each smallest unit at a time. Component testing provides the most Vue-friendly integration possible when testing. End to end testing tests the whole application in one go and this provides the closest user experience.
 
 ## What testing method do you think is the most useful? Why?
 
-Some of the benefits of Pair Programming are:
-1. An increase to code quality.
-2. A better 'shared knowledge' among the whole team and partners.
-3. A better and more effective way for more experienced team members to train and teach the less experienced ones.
-4. A reduction to the coordination of the whole team by cutting the number of individual projects by half.
-5. An improved resistance to disruptions in the coding process. If a team member needs to step out or redirect their attention for any reason, the partner can catch them up once the first returns.
+I personally beleive that the most useful testing method is going to be the unit testing. I believe this because if we as developers can write out our tests as we begin coding, we can become better developers. If we can learn to anticipate what is going to happen or what could happen, we will be better suited to solve coding problems when they occur.
 
 
 ## What testing method do you think is the least useful? Why?
 
-The main problems with Pair Programming are:
-1. Both members of the pair must be active and engaged in the work. Otherwise there is no benefit.
-2. When poorly applied, the worst case scenario is that it doubles the cost for no benefits.
-3. An open dialogue is required. If there is no speaking and thinking out loud there is less benefit to the practice.
-4. This practice is not fruitful among people that do not work well together. It cannot be forced upon people. The people participating need to be able to work together, otherwise there is no point in forcing the two together.
+I believe that the least useful testing method is the end to end method. It does have its uses, and it probably looks really good on paper, but to put off the testing of something until the very end seems foolish to me. I believe that it still has a place in the coding world, but it should be reserved as a safety check more than anything. It takes a long time for the end to end tests to go through all the pieces that make up a whole application, and that time is money.
 
 
 ## Afternoon Project Link:
 
-See Partner Project: https://steffenlarson.github.io/checkpoint6/
+See Capstone:
 
 
 ## Reading: Working in a Professional Environment: Testing in Vue
