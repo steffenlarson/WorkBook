@@ -3,16 +3,22 @@ __02/11/2021__
 
 ## What is an SSL certificate?
 
-The main function that a developer portfolio provides is to showcase what a particular developer has worked on. It is a fantastic way for employers to see what exactly you have done well. It is the best way to showcase yourself as a developer and an amazing way to show off particular skills in action.
+An SSL certificate is a way for websites to become more secure. A website with an SSL certificate will have access to encryption. The SSL essentially binds the browser to the server and encrypts all of the data so that the data stays private from all parties except the user and the server. 
 
 ## What are the different types of certificates? What are they used for?
 
-Being able to show a potential employer what you have done well as a developer is key to landing a job. The nice thing with a portfolio is that you can tailor what you put into it to the specific audience that you are targeting if you wish.
+There are many different certificates. They are separated into two groups. Encryption/ Validation certificates or Domain number. There are essentially several tiers of certs too. Ranging from the ones that are the most expensive but protect the most, to the ones that protect less, but are either cheaper or free. Then also the number of domains that the certificate is used for applies to the organization of the different kinds of certs. There are: 
+
+EV certificates
+OV certificates
+DV certificates
+Wildcard certificates
+UCC certificates
 
 
 ## What are some benefits of using SSL certificates?
 
-I would like to include Justin and my partner project, and I would like to add the bug collector project. I need to polish them up quite a bit first, but I also would like to include our capstone project which still needs a name... These projects are some of the more advanced ones that we have had and I would love to see them polished more and they really show everything that I have learned in the course so far.
+The main and biggest benefit that comes with using SSL certificates is that it makes your website secure. It helps protect against malicious ware being used on your site. SSL certificates show users that there are methods and checks in place for your website so that they can trust sharing their sensitive information with your site and buy or use your services.
 
 
 ## Afternoon Project Link:
