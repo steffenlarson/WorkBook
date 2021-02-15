@@ -28,7 +28,7 @@
 **6.** What is test driven development?
 <!-- enter you answer in the space below -->
 ```
-
+Test driven development is the idea that as developers we should build our tests first. This can help us in the designing stage of creating an app by already defining exactly what all of everything needs to do.
 ```
 **7.** In Scrum/Agile what is the DoD?
 <!-- enter you answer in the space below -->
