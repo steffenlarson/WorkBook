@@ -3,7 +3,7 @@
 **1.** What is Inheritance?
 <!-- enter you answer in the space below -->
 ```
-This refers to an objects ability to access methods and other properties from another object. Prototypes.
+This refers to an objects ability to access methods and other properties from another object. Prototypes. When we create objects that are a part of a certain class, they can inherit information that we provide to them.
 ```
 **2.** What is the `Singleton` design pattern?
 <!-- enter you answer in the space below -->
@@ -18,12 +18,12 @@ The observer design pattern is where an object maintains a list of its dependent
 **4.** What is the `Strategy` design pattern?
 <!-- enter you answer in the space below -->
 ```
-
+The strategy design pattern is where developers can select functions and things to run when things load. This is like when we use onMounted functions in vue 3.
 ```
 **5.** What is the `Factory` design pattern?
 <!-- enter you answer in the space below -->
 ```
-
+This design pattern allows developers to not have to explicitly say which class an object belongs to on its creation. This is using the templates of the class to make an object.
 ```
 **6.** What is test driven development?
 <!-- enter you answer in the space below -->
@@ -33,20 +33,22 @@ Test driven development is the idea that as developers we should build our tests
 **7.** In Scrum/Agile what is the DoD?
 <!-- enter you answer in the space below -->
 ```
-
+DoD stands for Definition of Done. This is relating to the MVP the Minimum Value Product. Meaning that there can be many things that can still be tweaked but at the end of the day what is the line where a development team says that it is done? There will always be more optimizations to make, but eventually the product has to be done.
 ```
 **8.** Give two examples of a user story:
 <!-- enter you answer in the space below -->
 ```
+1- Users can join a quest to participate in.
 
+2- Hosts can open and close quests for users to join.
 ```
 **9.** During which ceremony is your Sprint Backlog created?
 <!-- enter you answer in the space below -->
 ```
-
+The sprint planning ceremony.
 ```
 **10.** In which of these ceremonies are Tasks assigned to you?
 <!-- enter you answer in the space below -->
 ```
-
+This happens either in the sprint planning meeting and everyday everyone touches base in the daily Scrum meeting to discuss roadblocks.
 ```
