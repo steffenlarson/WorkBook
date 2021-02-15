@@ -3,16 +3,22 @@ __02/10/2021__
 
 ## What are some ways Scrum for a small team would differ from Scrum with a large team?
 
-The main function that a developer portfolio provides is to showcase what a particular developer has worked on. It is a fantastic way for employers to see what exactly you have done well. It is the best way to showcase yourself as a developer and an amazing way to show off particular skills in action.
+There are many ways that the Scrum method will change for smaller teams. Because a smaller team has fewer resources, and therefore fewer resources to manage, less time can be spent on making sure that everyone is on the same page. Everyone still needs to be on the same page, but it will be more important than ever for all of the staff and everyone involved in a project communicate to the best of their abilities. 
 
 ## Why does Scrum prescribe to only run 1 sprint at a time?
 
-Being able to show a potential employer what you have done well as a developer is key to landing a job. The nice thing with a portfolio is that you can tailor what you put into it to the specific audience that you are targeting if you wish.
+Scrum prescribes one sprint at a time usually because everyone is working on making a marketable and functioning project at the end of each sprint. With a smaller team it is more challenging to have all aspects of the project being worked on all at the same time, therefore some flexibility needs to be practiced when using the Scrum guidelines.
 
 
-## What is the unattainable triangle and what purpose dows it have in Scrum?
+## What is the unattainable triangle and what purpose does it have in Scrum?
 
-I would like to include Justin and my partner project, and I would like to add the bug collector project. I need to polish them up quite a bit first, but I also would like to include our capstone project which still needs a name... These projects are some of the more advanced ones that we have had and I would love to see them polished more and they really show everything that I have learned in the course so far.
+The unnatainable triangle is a philosophy that says:
+
+Good service cheap will not be fast
+Good service fast will not be cheap
+fast service cheap will not be good
+
+This is a good philosophy that teaches balance. Everyone (the team, the client, the bosses) needs to be as up to date and aware of how everything is going to add up and change. Communication at the onset and at the earliest possible moment when issues arise is key when thinking about this unattainable triangle.
 
 
 ## Afternoon Project Link:
