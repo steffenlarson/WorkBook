@@ -1,7 +1,7 @@
 # Day 53
 __02/24/2021__
 
-## What are the three categories of data types? How are they different?
+## What is SQL Injection?
 
 The three categories of data types are:
 
@@ -12,14 +12,14 @@ The three categories of data types are:
 Value types simply hold their value always. Reference types hold an address of where the data is. Finally Pointer types point to other methods and data.
 
 
-## What are the Value-type data types? What differences do you notice from Javascript?
+## What are 3 methods SQL Injection can be done by?
 
 There are many value type data types. They are:
 Bool, byte, char, decimal, double, enum, float, int, long, sbyte, short, struct, uint, ulong, ushort.
 The main difference that I notice from C# and Javascript is that there are many more classification types in C# than in Javascript. They all have different puproses that make them useful, and I cannot wait to learn how to use them all effectively.
 
 
-## In your own words how do Reference types get stored in memory? How does this differ from Value types?  
+## How can we detect and sanitize SQL Injection attacks?
 
 Reference types get stored in memory in a different way than Value types. The local memory part stores the address of where all of the data is stored, and methods that utilize a reference type are then allowed to go retrieve the whole collection that is needed. Value types always have a value, while reference types can be null, until they are instantiated.
 
@@ -29,4 +29,4 @@ Reference types get stored in memory in a different way than Value types. The lo
 https://steffenlarson.github.io/rpscsharp/
 
 
-## Reading: Foundations of C#: C# Data Types
+## Reading: Dotnet Web APIs: SQL Injection
