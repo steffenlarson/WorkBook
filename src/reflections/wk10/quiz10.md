@@ -9,7 +9,7 @@ Namespaces offer a feature similar to importing and exporting in node. Anything 
 **2.** What is the difference between a `class` and a `struct`?
 <!-- enter you answer in the space below -->
 ```
-
+Class represents a collection of data while structs represent data structures.
 ```
 **3.** What is the method that returns an instance of a class, yet it has no return type?
 <!-- enter you answer in the space below -->
@@ -40,12 +40,12 @@ In the example above string is an idication of what type the following informati
 **7.** In the example what is `abstract` preventing?
 <!-- enter you answer in the space below -->
 ```
-
+Abstract allows the class to be incomplete. This must be implimented in a derived class.
 ```
 **8.** In the example what is the purpose of `virtual`?
 <!-- enter you answer in the space below -->
 ```
-
+The virtual allows the method to not have a return type. It also allows subclasses of the type to override the method.
 ```
 **9.** Name four access modifiers:
 <!-- enter you answer in the space below -->
@@ -53,7 +53,7 @@ In the example above string is an idication of what type the following informati
 1- Public
 2- Private
 3- Internal
-4- 
+4- Protected
 ```
 **10.** If you set a class or method to private, what can access it?
 <!-- enter you answer in the space below -->
