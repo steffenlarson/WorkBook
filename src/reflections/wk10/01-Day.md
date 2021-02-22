@@ -3,21 +3,30 @@ __02/15/2021__
 
 ## What are the three categories of data types? How are they different?
 
-We are utilizing the Scrum format for organizing ourselves very well. We used vue 3 to build our web application and we have been using the google maps api along with geolocation and geocoding. It has been a lot of information to come down the pipeline and it has been challenging to get used to it but we have worked really well as a team and I am proud with what we were able to make in such a short period of time.
+The three categories of data types are:
+
+1- Value Types
+2- Reference Types
+3- Pointer Types
+
+Value types simply hold their value always. Reference types hold an address of where the data is. Finally Pointer types point to other methods and data.
+
 
 ## What are the Value-type data types? What differences do you notice from Javascript?
 
-Everything went well. We prioritized figuring out how to work with the google api and that went well. We split into two teams for the majority of the time and we were able to tackle our project really well I think. We all made sure that everyone was kind of on the same page, and some of the technology that we used is still kind of black box magic to me, but I feel confident that if needed I could explain exactly what is going on in our project to someone on the outside.
+There are many value type data types. They are:
+Bool, byte, char, decimal, double, enum, float, int, long, sbyte, short, struct, uint, ulong, ushort.
+The main difference that I notice from C# and Javascript is that there are many more classification types in C# than in Javascript. They all have different puproses that make them useful, and I cannot wait to learn how to use them all effectively.
 
 
-## In your own words how do Reference types get stored in memory? How does this differ from Value types?
+## In your own words how do Reference types get stored in memory? How does this differ from Value types?  
 
-I wish we had a little more time to polish and clean our code. We never really got to a good point to refactor anything. It all works, but I wish there had been an easy fix for some of our UX problems. I also wish that we could have all sat down a little longer and gone over exactly what our code was doing.
+Reference types get stored in memory in a different way than Value types. The local memory part stores the address of where all of the data is stored, and methods that utilize a reference type are then allowed to go retrieve the whole collection that is needed. Value types always have a value, while reference types can be null, until they are instantiated.
 
 
 ## Afternoon Project Link:
 
-See Capstone:
+https://steffenlarson.github.io/rpscsharp/
 
 
 ## Reading: Foundations of C#: C# Data Types
