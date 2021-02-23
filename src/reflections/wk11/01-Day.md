@@ -3,30 +3,23 @@ __02/22/2021__
 
 ## What does inheritance accomplish for us in C#?
 
-The three categories of data types are:
-
-1- Value Types
-2- Reference Types
-3- Pointer Types
-
-Value types simply hold their value always. Reference types hold an address of where the data is. Finally Pointer types point to other methods and data.
+Inheritance in C# can do a great deal for developers. One of the main selling points is that it can help in reducing repeating code. Each parent class shares its like information with its children. Inheritance can also signify what types things are or what they are children of.
 
 
 ## How does Member inheritance work in C#? Does a class inherit all members of a base class?
 
-There are many value type data types. They are:
-Bool, byte, char, decimal, double, enum, float, int, long, sbyte, short, struct, uint, ulong, ushort.
-The main difference that I notice from C# and Javascript is that there are many more classification types in C# than in Javascript. They all have different puproses that make them useful, and I cannot wait to learn how to use them all effectively.
+Almost all of the members in the parent class are transfered down to the children classes. The children all the way down the inheritance chain have access to whatever gets passed to them from their parent class.
+Almost every member of a class can be inherited from the base class to the derived class. The exceptions being constructors, and finalizers. Those two things cannot be inherited from a parent to a child. 
 
 
 ## How does accessibility affect inheritance?
 
-Reference types get stored in memory in a different way than Value types. The local memory part stores the address of where all of the data is stored, and methods that utilize a reference type are then allowed to go retrieve the whole collection that is needed. Value types always have a value, while reference types can be null, until they are instantiated.
+Accessability controls whether or not the members that are getting passed down are visible or not. Public methods and members are always visable and usable. On the other end of the spectrum, private classes are never visable in the children, unless they are nested inside of the parent. Then with protected members they are only visable in the child class, and with Internal members they are only visable when the derived class is located in the same assembly as the base class.
 
 
 ## Afternoon Project Link:
 
-https://steffenlarson.github.io/rpscsharp/
+https://steffenlarson.github.io/Vacay/
 
 
 ## Reading: Foundations of C#: C# Inheritance
