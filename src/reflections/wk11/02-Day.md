@@ -3,20 +3,12 @@ __02/23/2021__
 
 ## What is the difference between a primary key and a foreign key?
 
-The three categories of data types are:
-
-1- Value Types
-2- Reference Types
-3- Pointer Types
-
-Value types simply hold their value always. Reference types hold an address of where the data is. Finally Pointer types point to other methods and data.
+Primary keys are the keys listed on a table that identify which specific instance that member of the table is. Foreign keys are placed on the end of the table and reference another table by that tables primary key. Everything will technically have a primary key, but tables that have no relationship will not have a fireign key.
 
 
 ## What is an Alias?
 
-There are many value type data types. They are:
-Bool, byte, char, decimal, double, enum, float, int, long, sbyte, short, struct, uint, ulong, ushort.
-The main difference that I notice from C# and Javascript is that there are many more classification types in C# than in Javascript. They all have different puproses that make them useful, and I cannot wait to learn how to use them all effectively.
+Aliases are used inside of JOIN statements in SQL statements. They are simply assigning a variable for a name of a table so that the code can be dry and readable. They are simply used for readabilities sake.
 
 
 ## Demonstrate how you would query a join statement that would get all of a doctors patients from the following collection:
@@ -33,7 +25,7 @@ CREATE TABLE patients (
   PRIMARY KEY (id)
 )
 
-CREATE TABLE doctors (
+CREATE TABLE doctorpatients (
   id INT NOT NULL AUTO_INCREMENT,
   doctorId INT NOT NULL,
   patientId INT NOT NULL,
@@ -44,7 +36,18 @@ CREATE TABLE doctors (
     REFERENCES patients(id),
 ) 
 
-Reference types get stored in memory in a different way than Value types. The local memory part stores the address of where all of the data is stored, and methods that utilize a reference type are then allowed to go retrieve the whole collection that is needed. Value types always have a value, while reference types can be null, until they are instantiated.
+internal IEnumerable<PatientDoctorPatientViewModel> GetByDoctorId(int id)
+    {
+      string sql = @"
+      SELECT
+      p.*
+      dp.id as DoctorPatientId
+      FROM doctorpatients dp
+      JOIN patients p ON dp.patientId = p.id
+      WHERE doctorId = @id
+      ";
+      return _db.Query<PatientDoctorPatientViewModel>(sql, new { id });
+    }
 
 
 ## Afternoon Project Link:
