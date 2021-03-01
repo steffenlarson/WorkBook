@@ -19,7 +19,7 @@ Accessability controls whether or not the members that are getting passed down a
 
 ## Afternoon Project Link:
 
-https://steffenlarson.github.io/Vacay/
+https://steffenlarson.github.io/Legos/
 
 
 ## Reading: Foundations of C#: C# Inheritance

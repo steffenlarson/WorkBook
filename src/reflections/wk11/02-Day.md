@@ -52,7 +52,7 @@ internal IEnumerable<PatientDoctorPatientViewModel> GetByDoctorId(int id)
 
 ## Afternoon Project Link:
 
-https://steffenlarson.github.io/rpscsharp/
+https://steffenlarson.github.io/contractorapi/
 
 
 ## Reading: Dotnet Web APIs: Relationships
