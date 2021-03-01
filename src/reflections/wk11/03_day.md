@@ -3,25 +3,23 @@ __02/24/2021__
 
 ## What is SQL Injection?
 
-The three categories of data types are:
-
-1- Value Types
-2- Reference Types
-3- Pointer Types
-
-Value types simply hold their value always. Reference types hold an address of where the data is. Finally Pointer types point to other methods and data.
+Put simply SQL Injection is a crude form of hacking. This method of attacking a web application has been around forever and if developers practice their due diligence it is easily prevented. Never trust the user with anything.
 
 
 ## What are 3 methods SQL Injection can be done by?
 
-There are many value type data types. They are:
-Bool, byte, char, decimal, double, enum, float, int, long, sbyte, short, struct, uint, ulong, ushort.
-The main difference that I notice from C# and Javascript is that there are many more classification types in C# than in Javascript. They all have different puproses that make them useful, and I cannot wait to learn how to use them all effectively.
+The three methods that SQL Injection can be done by are:
+
+1- Through user input (forms or other ways users pass data to the back end).
+2- Cookies can be modified and poisoned to allow attackers to send malicious injections.
+3- HTTP headeers can also be used to inject SQL messages through to the back end.
+
+All of these methods are similar. They all involve inserting basic SQL code through a querry. Sanatize all of your inputs!!!
 
 
 ## How can we detect and sanitize SQL Injection attacks?
 
-Reference types get stored in memory in a different way than Value types. The local memory part stores the address of where all of the data is stored, and methods that utilize a reference type are then allowed to go retrieve the whole collection that is needed. Value types always have a value, while reference types can be null, until they are instantiated.
+In todays world there are a ton of automated IDS's (intrusion detection systems) that can help developers watch for funny things going on in their database. When building websites developers should assume that the user is malicious and sanatize all of the data that is getting passed through accordingly. Make sure that there is not a way for a malicious user to interact with the website to manipulate your data.
 
 
 ## Afternoon Project Link:
