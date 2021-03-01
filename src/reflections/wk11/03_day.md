@@ -24,7 +24,7 @@ In todays world there are a ton of automated IDS's (intrusion detection systems)
 
 ## Afternoon Project Link:
 
-I worked with Justin, Kris, and Nathan on this project. I do not currently have the link because we forgot to add each other as collaborators. I will get it put on here as soon as possible.
+https://github.com/JustinCarpenter2020/cTaskMaster
 
 
 ## Reading: Dotnet Web APIs: SQL Injection
